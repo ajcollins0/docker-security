@@ -1,19 +1,5 @@
 #!/usr/bin/python
 
-#
-# requires the yum and docker (python) modules 
-#
-# for docker
-#   on fedora
-#     pip install docker-py
-#
-#     RPMS are available, but only for older versions of the docker module
-#
-#   on RHEL
-#     yum install docker-python
-#     The RPMS on RHEL7 seem to be up to date
-#
-
 import os
 import sys
 import argparse
